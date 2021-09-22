@@ -87,16 +87,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* UNIVERSAL */
+
+   body {
+     background-color: #fff !important;
+     font-size: 16px;
+     color: #1a1a1a;
+   }
+   
    /* HEADER */
 
    header {
      align-items: center;
      display: flex;
      justify-content: space-between;
+     margin: 0 10px;
+   }
+
+   header h1 {
+     font-family: 'lobster', sans-serif !important;
+     font-size: 2.5em;
+     color: #04404a;
    }
 
    nav {
-     width: 40%;
+     width: 50%;
    }
 
    nav ul {
@@ -105,6 +120,11 @@ textarea {
      list-style-type: none;
      padding: 0;
    }
+
+    nav a:link,
+    nav a:visited {
+      color: #04404a;
+    }
 
    /* MAIN */
 
@@ -115,28 +135,67 @@ textarea {
    }
 
    #hero-area h1 {
-     padding-top: 50px
+     margin: 0 10px;
+     padding-top: 50px;
    }
 
-   .booking-form {
-     background-color: #eee;
-     height: 500px;
+   .highlightme {
+     background-color: #fff;
+   }
+
+   .boat-feature {
+     background-color: #e6ebeb;
+     padding: 10px;
+   }
+    
+    .boat-feature h2 {
+     margin: 0;
+   }
+
+   .boat-feature img {
+     width: 300px;
+   }
+
+   #book {
+     background-color: #fff;
+     height: 1600px;
+   }
+
+   #about {
+     background-color: #e6ebeb;
+     padding: 10px;
    }
 
 
    /* FOOTER */
 
    footer {
-     background-color: #eee
+     background-color: #fff;
+     padding: 30px 0 10px 0;
    }
 
-   footer .contact {
+   footer #contact {
      display: flex;
      justify-content: space-evenly;
    }
 
    .copyright {
      text-align: center;
+   }
+
+   #naomi {
+     font-size: .75em; 
+     padding-top: 20px;
+   }
+
+   #naomi .highlightme {
+     background-color: #e6ebeb;
+     padding: 5px 8px;
+   }
+
+   #naomi a:link,
+   #naomi a:visited {
+     color: #04404a;
    }
   
 
