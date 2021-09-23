@@ -135,11 +135,12 @@ textarea {
    }
 
    #hero-area h1 {
+     color: #7fa0a9;
      margin: 0 10px;
      padding-top: 50px;
    }
 
-   .highlightme {
+   #hero-area .highlightme {
      background-color: #fff;
    }
 
@@ -288,8 +289,99 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* TABLET STYLES */
+
+@media only screen and (min-width: 768px) {
+
+  /* TABLET HEADER */
+
+  header {
+    margin: 0 40px;
+  }
+  
+  header h1 {
+    font-size: 4em;
+  }
+
+  nav ul {
+    font-size: 1.5em;
+  }
+
+  /* TABLET MAIN */
+
+  #hero-area h1 {
+    margin: 0 40px;
+    font-size: 3em;
+    width: 60%;
+    padding-top: 50px;
+  }
+
+  .boat-feature {
+    padding: 40px;
+  }
+
+  .boat-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .boat-container img {
+  margin-left: 20px;
+  }
+
+  #about {
+    padding: 40px;
+  }
+
+}
+
+/* DESKTOP STYLES */
+
+@media only screen and (min-width: 1200px) {
+
+   /* DESKTOP HEADER */
+
+  header {
+    padding: 0 100px;
+    margin: 0;
+  }
+
+  nav {
+    width: 30%;
+  }
+
+  /* DESKTOP MAIN */
+
+  #hero-area h1 {
+    font-size: 4em;
+    width: 50%;
+    margin: 0 100px;
+    color: #fff !important;
+  }
+
+  #hero-area .highlightme {
+    background-color: transparent;
+  }
+
+  .boat-feature {
+    background-color: #fff;
+    padding: 50px 100px;
+  }
+
+  #book {
+    background-color: #e6ebeb;
+    padding-top: 20px;
+    height: 1700px;
+  }
+
+  #about {
+    background-color: #fff;
+    padding: 50px 100px;
+  }
+
+  footer {
+    background-color: #e6ebeb;
+  }
 }
 
 @media print,
