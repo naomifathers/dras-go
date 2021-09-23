@@ -320,13 +320,8 @@ textarea {
     padding: 40px;
   }
 
-  .boat-container {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .boat-container img {
-  margin-left: 20px;
+  .ism-slider {
+    margin: 30px 0 !important;
   }
 
   #about {
@@ -342,7 +337,7 @@ textarea {
    /* DESKTOP HEADER */
 
   header {
-    padding: 0 100px;
+    padding: 0 200px;
     margin: 0;
   }
 
@@ -355,7 +350,7 @@ textarea {
   #hero-area h1 {
     font-size: 4em;
     width: 50%;
-    margin: 0 100px;
+    margin: 0 200px;
     color: #fff !important;
   }
 
@@ -365,7 +360,22 @@ textarea {
 
   .boat-feature {
     background-color: #fff;
-    padding: 50px 100px;
+    padding: 50px 200px;
+  }
+
+  .boat-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .boat-text {
+    width: 40%;
+  }
+
+  .ism-slider {
+    width: 55%!important;
+    padding: 0;
   }
 
   #book {
@@ -376,7 +386,7 @@ textarea {
 
   #about {
     background-color: #fff;
-    padding: 50px 100px;
+    padding: 50px 200px;
   }
 
   footer {
