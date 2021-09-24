@@ -105,11 +105,9 @@ textarea {
      justify-content: center;
    }
 
-   header h1 {
-     font-family: 'Lobster', sans-serif !important;
-     font-size: 2.5em;
-     color: #7fa0a9;
-     margin: 10px;
+   header img {
+     width: 80%;
+     padding: 15px;
    }
 
    nav {
@@ -148,12 +146,12 @@ textarea {
      background-color: #fff;
    }
 
-   .boat-feature {
+   #boat-feature {
      background-color: #e6ebeb;
      padding: 20px 10px;
    }
     
-    .boat-feature h2 {
+    #boat-feature h2 {
      margin: 0;
    }
 
@@ -161,9 +159,45 @@ textarea {
      margin: 20px 0 !important;
    }
 
+   #book-button {
+     background-color: #7fa0a9;
+     font-weight: bold;
+     padding: 10px;
+     width: 50%;
+     text-align: center;
+   }
+
+   #book-button a:link,
+   #book-button a:visited {
+     color: #fff;
+   }
+
+   #note {
+     font-size: .80em;
+   }
+
+   .prices-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #scaffie,
+  #lugger,
+  #coaster {
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  #book-button {
+    margin-top: 30px;
+  }
+
    #book {
      background-color: #fff;
-     height: 1600px;
+     height: 1620px;
    }
 
    #about {
@@ -190,7 +224,7 @@ textarea {
 
    #naomi {
      font-size: .75em; 
-     padding-top: 20px;
+     padding: 30px;
    }
 
    #naomi .highlightme {
@@ -303,8 +337,8 @@ textarea {
     margin: 0 40px;
   }
   
-  header h1 {
-    font-size: 4em;
+  header img {
+    width: 60%;
   }
 
   nav ul {
@@ -320,12 +354,31 @@ textarea {
     padding-top: 90px;
   }
 
-  .boat-feature {
+  #boat-feature {
     padding: 40px;
   }
 
   .ism-slider {
     margin: 30px 0 !important;
+  }
+
+  .prices-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  #scaffie,
+  #lugger,
+  #coaster {
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 10px 40px;
+  }
+
+  #book-button {
+    width: 40%;
+    margin-top: 40px;
   }
 
   #about {
@@ -341,22 +394,31 @@ textarea {
    /* DESKTOP HEADER */
 
   header {
-    padding: 20px 200px;
+    padding: 10px 150px;
     margin: 0;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
   }
 
-  nav {
-    width: 30%;
-  }
+    header img {
+      width: 30%;
+    }
+
+    nav {
+      width: 30%;
+      align-self: flex-end;
+    }
 
   /* DESKTOP MAIN */
 
+  #hero-area {
+    height: 300px;
+  }
+
   #hero-area h1 {
-    font-size: 4em;
-    width: 50%;
+    font-size: 3em;
+    width: 40%;
     margin: 0 200px;
     color: #fff !important;
   }
@@ -365,7 +427,7 @@ textarea {
     background-color: transparent;
   }
 
-  .boat-feature {
+  #boat-feature {
     background-color: #fff;
     padding: 50px 200px;
   }
@@ -374,6 +436,7 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
   }
 
   .boat-text {
@@ -381,14 +444,29 @@ textarea {
   }
 
   .ism-slider {
-    width: 55%!important;
+    width: 55% !important;
     padding: 0;
+    align-self: flex-start;
+  }
+
+  .prices-container {
+    width: 100%;
+  }
+
+  .prices-container h5 {
+    margin: 0;
+  }
+
+  #scaffie,
+  #lugger,
+  #coaster {
+    padding: 10px;
   }
 
   #book {
     background-color: #e6ebeb;
-    padding-top: 20px;
-    height: 1700px;
+    padding-top: 10px;
+    height: 1800px;
   }
 
   #about {
