@@ -105,11 +105,16 @@ textarea {
      justify-content: center;
    }
 
-   header img {
-     width: 80%;
-     padding: 15px;
+   .header-logo {
+    width: 80%;
+    padding-top: 15px;
    }
 
+   header p {
+     color: #7fa0a9;
+     text-align:center;
+   }
+   
    nav {
      width: 100%;
    }
@@ -336,8 +341,8 @@ textarea {
   header {
     margin: 0 40px;
   }
-  
-  header img {
+
+  .header-logo {
     width: 60%;
   }
 
@@ -401,9 +406,14 @@ textarea {
     align-items: center;
   }
 
-    header img {
-      width: 30%;
-    }
+  .header-logo {
+    width: 30%;
+  }
+
+  .header-logo p {
+    text-align: left;
+    text-indent: 10px;
+  }
 
     nav {
       width: 30%;
